@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Infinity_scrolling"
         tools:targetApi="31">
         <activity
+            android:name=".SearchResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".carouselActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProductType"
             android:exported="false" />
         <activity

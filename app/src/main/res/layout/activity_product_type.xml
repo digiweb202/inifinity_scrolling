@@ -11,5 +11,5 @@
         android:layout_height="match_parent"
         android:padding="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_product_type" />
+        tools:listitem="@layout/listitem" />
 </androidx.constraintlayout.widget.ConstraintLayout>

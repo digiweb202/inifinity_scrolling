@@ -60,7 +60,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         // Check if watches_img list is not empty before accessing elements
         if (!productTypeModel.watches_img.isEmpty()) {
             ProductListImgModel firstWatchesImg = productTypeModel.watches_img.get(0);
-            String mainImageURL = firstWatchesImg.getOther_Image_URL1();
+            String mainImageURL = firstWatchesImg.getMain_Image_URL();
 
             // Load the image into the ImageView using Picasso
             Picasso.get().load(mainImageURL).into(imageView);

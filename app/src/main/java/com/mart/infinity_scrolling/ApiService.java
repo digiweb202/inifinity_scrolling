@@ -22,4 +22,11 @@ public interface ApiService {
     @GET("api_product_type.php")
     Call<ApiResponse> getCombinedData(@Query("productType") String productType);
 
+    @GET("api_getcontent.php") // Replace with your actual API endpoint
+    Call<List<ContentModel>> getContent();
+
+    @GET("api_searchquery.php") // Replace with your actual PHP script name
+    Call<ApiResponse> getWatchesData(@Query("searchQuery") String searchQuery, @Query("page") int page);
+
+
 }
